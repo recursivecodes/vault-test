@@ -1,0 +1,16 @@
+micronaut:
+  application:
+    name: hello-world
+  config-client:
+    enabled: true
+oraclecloud:
+  vault:
+    config:
+      enabled: true
+    vaults:
+      - ocid: ocid1.vault.oc1.phx....
+        compartment-ocid: ocid1.compartment.oc1....
+    use-instance-principal: false
+    path-to-config: ~/.oci/config
+    profile: DEFAULT
+    region: US-PHOENIX-1
