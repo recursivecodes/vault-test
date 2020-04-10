@@ -1,6 +1,6 @@
 micronaut:
   application:
-    name: hello-world
+    name: vault-test
   config-client:
     enabled: true
 oraclecloud:
@@ -8,8 +8,8 @@ oraclecloud:
     config:
       enabled: true
     vaults:
-      - ocid: ocid1.vault.oc1.phx....
-        compartment-ocid: ocid1.compartment.oc1....
+      - ocid: ocid1.vault.oc1.phx.a5pi6slwaafqw.abyhqljtkkcg7pvebkcdb5ryraygs7hk3ytg7r4pu6xryfp3v73suutn3q3q
+        compartment-ocid: ocid1.compartment.oc1..aaaaaaaa7lzppsdxt6j56zhpvy6u5gyrenwyc2e2h4fak5ydvv6kt7anizbq
     use-instance-principal: false
     path-to-config: ~/.oci/config
     profile: DEFAULT

@@ -1,3 +1,12 @@
 micronaut:
   application:
     name: vault-test
+datasources:
+  default:
+    password: ${SECRET_TWO}
+secrets:
+  one: ${SECRET_ONE}
+  two: ${SECRET_TWO}
+  three: ${SECRET_THREE}
+  four: ${SECRET_FOUR}
+  five: ${SECRET_FIVE}
